@@ -4,7 +4,7 @@
 
 ## 使用
 
-1. 安装 `PopupCameraControl.apk`。如果已有旧版，可以直接覆盖更新。
+1. 从 [GitHub Releases 页面](https://github.com/daidaideya/k30-popup-camera-control/releases/latest) 下载并安装 `PopupCameraControl.apk`。如果已有旧版，可以直接覆盖更新。
 2. 首次操作时，在 Magisk 弹窗中允许本应用获取 root 权限。
 3. 使用“弹出前摄”或“收回前摄”；状态文本会显示电机反馈。
 
@@ -20,7 +20,6 @@
 
 ## 文件
 
-- `PopupCameraControl.apk`：可安装应用
 - `app/src/main`：界面与应用清单
 - `bridge/MotorBridge.java`：root 进程中的电机 HAL 调用
 - `app/src/main/assets/motor_bridge.dex`：随 APK 携带的 root 控制程序
