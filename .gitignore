@@ -1,0 +1,8 @@
+/build/
+/.gradle/
+/local.properties
+/PopupCameraControl.apk.idsig
+*.class
+*.jks
+*.keystore
+keystore.properties

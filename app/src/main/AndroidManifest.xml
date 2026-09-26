@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.usbadb.popupcamera"
+    android:versionCode="6"
+    android:versionName="1.5">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="34" />
+    <application
+        android:allowBackup="false"
+        android:label="K30 前摄升降"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
